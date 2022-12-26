@@ -37,8 +37,10 @@ Explanation about the project structure:
 
 1.all feature files can be found here
 src/test/java/features
+
 2.stepdefinations can be found here
 src/test/java/stepdefination
+
 3.runner can be found here
 src/test/java/runner
 

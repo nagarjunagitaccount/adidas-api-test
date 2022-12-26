@@ -46,3 +46,12 @@ src/test/java/runner
 
 
 
+Note:
+I just noticed on running tests using maven command the tests are running fine but the total run status shown as 0.
+but all the scripts are working fine.it may be due to the dependencies.
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.015 s - in TestSuite
+
+
+
+

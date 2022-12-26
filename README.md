@@ -1,14 +1,18 @@
 Key highlights:
+
 1.Used Maven profiling
 2.created Pojo classes for request creation and serialization
 3.created singleton class to access properties
 4.created Cucumber style BDD testcases
 
-things to improve 
+things to improve :
+
 1.Testdata generation can be improved ,read the testdata from external Db,excel etc.
 2.Add checkstyle and Sonarlint for to improve quality
 
-Steps to Run tests
+Steps to Run tests:
+
+
 1.clone the repo and assuming you have intelijidea or eclispse,mvn  setup in your local machine 
 2`mvn test` or Navigate to src/test/java/runner right click on TestRunner class and run.
 
@@ -20,6 +24,7 @@ Or
 
 you can find the reports here as well:
 
+
 Then Verify if pet is deleted                                               # stepdefination.petstoresteps.verify_if_pet_is_deleted()
 ????????????????????????????????????????????????????????????????????????????
 ? View your Cucumber Report at:                                            ?
@@ -29,6 +34,7 @@ Then Verify if pet is deleted                                               # st
 ? Keep reports forever: https://reports.cucumber.io/profile                ?
 
 Explanation about the project structure:
+
 1.all feature files can be found here
 src/test/java/features
 2.stepdefinations can be found here
